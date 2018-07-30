@@ -11,25 +11,30 @@
 
 <body>
     <div class="container">
-        <header><p>header</p></header>
+        <header class="section">
+            <p class="section-label">header</p>
+        </header>
 
-        <nav><p>nav</p></nav>
+        <nav class="section">
+            <p class="section-label">nav</p>
+        </nav>
 
         <div class="column-layout">
-            <section>
-                 <p>section</p>
-                <article> 
-                    <p>article</p>
+            <section class="section column column-layout-left">
+
+                <p class="section-label">section</p>
+                <article class="article"> 
+                    <p class="section-label">article</p>
                     
 
-                    <div>
-                        <h1>h1</h1>
-                        <h2>h2</h2>
-                        <h3>h3</h3>
+                    <div class="text-center bg-grey">
+                        <h1 class="inline">h1</h1>
+                        <h2 class="inline">h2</h2>
+                        <h3 class="inline">h3</h3>
                     </div>
 
-                    <div>
-                        <p>p</p>
+                    <div class="bg-grey">
+                        <p class="section-label">p</p>
                     </div>
                 
                 
@@ -38,14 +43,16 @@
 
             </section>
 
-            <aside>
-                 <p>aside</p> 
+            <aside class="section column column-layout-right">
+                 <p class="section-label">aside</p> 
             </aside>
  
         </div>
 
         
-        <footer><p>footer</p></footer>
+        <footer class="section footer">
+            <p class="section-label">footer</p>
+        </footer>
 
     </div>
 
